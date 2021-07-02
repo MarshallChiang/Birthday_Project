@@ -5,7 +5,7 @@
 ```
 npm run start 
 ```
-will be hosted on localhost:3000
+server will be hosted on localhost:3000
 
 ### structure 
 
@@ -39,7 +39,7 @@ will be hosted on localhost:3000
 
 ### configuration
 
-in `public/javascript/configration.js`, statics object is the module for Game objects's initialization, which is also overwritable.
+in `public/javascript/configration.js`, statics object is being used as module for Game objects's initialization, and which is also overwritable.
 ```javascript
 const statics = {
     prize : { // detail and quantity of prize
