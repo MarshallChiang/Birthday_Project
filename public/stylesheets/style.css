@@ -1,0 +1,70 @@
+
+.Container {
+    margin-top: 5em;
+    height : 80vh; 
+    width : 100%;
+    justify-content: center;
+}
+.PlayGround {
+    background-color: ghostwhite;
+}
+.GameBoard {
+    position: relative;
+    min-height: 80%;
+    background-color: gray;
+    margin: 1em;
+}
+.Game {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#id {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+table {
+    height: 100%;
+    width: 100%;
+    background-color: ghostwhite;
+}
+iframe {
+    height: 100%;
+    width: 100%;
+}
+.table-bordered td {
+    border-width : 1px 1px !important;
+}
+.dot-client {
+    background-image: url(../images/dot-client.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 50%, 50%;
+}
+.dot-server {
+    background-image: url(../images/dot-server.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 50%, 50%;
+}
+.promo-container {
+	margin: 0 auto;
+}
+.scratch-container {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width:100%;
+}
+.scratchpad{
+  width: 300px;
+  height: 290px;
+  border: solid 10px #FFFFFF;
+  margin:0 auto;
+  text-align: left;
+}
+

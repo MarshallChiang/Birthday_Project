@@ -1,0 +1,34 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='stylesheet' href='stylesheets/style.css')
+  script(src='http://code.jquery.com/jquery-latest.min.js')
+  // latest
+  link(href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet')
+  link(href='https://unpkg.com/nes.css@2.3.0/css/nes.min.css' rel='stylesheet')
+  // import boostrap
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x' crossorigin='anonymous')
+  script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js' integrity='sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4' crossorigin='anonymous')
+  style.
+    html, body, pre, code, kbd, samp {
+    font-family: "Press Start 2P";
+    }
+.Container.d-flex.justify-content-center
+  .PlayGround.row.col-10.col-md-5
+    .nes-container.with-title.is-centered
+      p.title Birthday Games!
+      .d-flex.justify-content-between(style='margin:1em')
+        div
+          i.nes-icon.coin.is-medium
+          span#point.nes-text 0
+        div
+          i.nes-icon.trophy.is-medium(data-bs-toggle='modal' data-bs-target='#prizeList')
+        #prizeList.modal.fade(tabindex='-1' aria-labelledby='exampleModalLabel' aria-hidden='true')
+          include prize.pug
+      .GameBoard
+        #gameResult
+        .alert.alert-warning.d-none(role="alert")
+        #game.Game
+script(type="module" src='javascripts/game.js')
+script(src='https://jennamolby.com/scratch-and-win/js/wScratchPad.min.js')
