@@ -7,7 +7,7 @@ npm run start
 ```
 server will be hosted on localhost:3000
 
-### database schema 
+### Database Schema 
 
 a sqlite database will be created under `public` 
 
@@ -17,7 +17,11 @@ a sqlite database will be created under `public`
 | point | INTEGER         | YES  |     | 0    | 
 | prize          | TEXT         | YES   |     | NULL    |    
 
-### structure 
+### Game Demo
+
+Snake : [Demo](https://codepen.io/ghgsumvw-the-scripter/pen/VwbvZYd)
+
+### Structure 
 
 ```
 .
@@ -46,8 +50,7 @@ a sqlite database will be created under `public`
     ├── main.pug
     └── prize.pug
 ```
-
-### configuration
+### Configuration
 
 in `public/javascript/configration.js`, statics object is being used as module for Game objects's initialization, and which is also overwritable.
 ```javascript
