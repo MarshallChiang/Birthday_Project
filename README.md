@@ -31,5 +31,5 @@
 ```
 
 ### view
-![image](https://user-images.githubusercontent.com/20620478/124310420-ba30ad00-db9e-11eb-8127-62fd7fb5e69c.png)
+![image](https://user-images.githubusercontent.com/20620478/124310420-ba30ad00-db9e-11eb-8127-62fd7fb5e69c.png =500px)
 
