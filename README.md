@@ -7,6 +7,16 @@ npm run start
 ```
 server will be hosted on localhost:3000
 
+### database schema 
+
+a sqlite database will be created under `public` 
+
+| Field             | Type                | Null | Key | Default | 
+|-------------------|---------------------|------|-----|---------|
+| player            | TEXT    | NO   | PRI | NULL    | 
+| point | INTEGER         | YES  |     | 0    | 
+| prize          | TEXT         | YES   |     | NULL    |    
+
 ### structure 
 
 ```
