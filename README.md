@@ -13,7 +13,7 @@ a sqlite database will be created under `public`
 
 | Field             | Type                | Null | Key | Default | 
 |-------------------|---------------------|------|-----|---------|
-| player            | TEXT    | NO   | PRI | NULL    | 
+| player            | TEXT    | NO   | PRI |     | 
 | point | INTEGER         | YES  |     | 0    | 
 | prize          | TEXT         | YES   |     | NULL    |    
 
